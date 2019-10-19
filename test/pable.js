@@ -1,0 +1,20 @@
+$("#p").panel({
+	title:'面板功能展示',
+	width:300,
+	height:100,
+	collapsible:true,
+	minimizable:true,
+	maximizable:true,
+	iconCls:'icon-open',
+	tools:[
+		{
+			iconCls:'icon-add',
+			handler:function(){alert('这是新增按钮')}
+		},
+		{
+			iconCls:'icon-edit',
+			handler:function(){
+				alert('这是编辑按钮')}
+		},
+	]
+})
